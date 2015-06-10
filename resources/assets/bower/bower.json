@@ -1,0 +1,24 @@
+{
+  "name": "bower",
+  "version": "2.0.17",
+  "homepage": "https://github.com/laravel/homestead",
+  "authors": [
+    "Simon Quach <quachsh@mcmaster.ca>"
+  ],
+  "description": "bootstrap and fontawesome",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}
