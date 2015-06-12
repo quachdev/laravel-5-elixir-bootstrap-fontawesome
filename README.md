@@ -24,7 +24,11 @@ Next, install gulp globally to your machine:
 Next, install bower (this will allow you to get bootstrap and fontawesome)
 - npm install -g bower
 
-After the above are installed, "cd" into the directory where you want to place your files. In my case I placed it in resources/assets/bower/bower_components 
+After the above are installed, "cd" into the directory where you want to place your files. In my case I placed it in resources/assets/bower 
 
-- bower install bootstrap-sass --save
-- bower install fontawesome --save
+- bower init 
+Follow the steps prompted to set up the bower.json file to load dependencies
+This will create a bower_components directory, then run 
+
+- bower install bootstrap-sass --save-dev
+- bower install fontawesome --save-dev
